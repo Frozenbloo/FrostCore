@@ -1,11 +1,12 @@
 # FrostCore
+
+## ⚠️ WIP ⚠️
+
 A Fully Custom ServerCore for Spigot **1.19+**
 
 I mainly started this project to enhance my java skills, so if you see any coding practices i should be doing, please say as I would greatly appreciate it.
 
 If you want to see any features added, just open a [new issue](https://github.com/Frozenbloo/FrostCore/issues/new "Create a new Issue") with the enhancement tag and I will do my best to add it
-
-
 
 
 ___
