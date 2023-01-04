@@ -26,4 +26,12 @@ public class CommandUtils {
         }
         return Bukkit.getPlayer(args[0]);
     }
+
+    public static boolean handleConsole(CommandSender sender) {
+        if (sender instanceof Player) return true;
+        else {
+            sender.sendMessage(ChatUtils.Coloured("&#FFB562⚠ &#F9F2EDYou need to be a player to execute this command!"));
+            return false;
+        }
+    }
 }

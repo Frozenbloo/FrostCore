@@ -15,6 +15,8 @@ public abstract class Command extends BukkitCommand {
 
     /**
      * Custom Command Class
+     * I decided to use this as the command does not need to be added into the plugin.yml
+     * allowing me to add commands with aliases using a config.
      * @param command The Command to be executed
      * @param aliases Any Command Aliases
      * @param description The Command Description

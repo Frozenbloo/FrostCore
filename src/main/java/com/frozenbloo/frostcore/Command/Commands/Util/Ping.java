@@ -1,4 +1,4 @@
-package com.frozenbloo.frostcore.Command.Commands.Basic;
+package com.frozenbloo.frostcore.Command.Commands.Util;
 
 import com.frozenbloo.frostcore.Command.Command;
 import com.frozenbloo.frostcore.Utils.ChatUtils;
