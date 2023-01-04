@@ -1,4 +1,4 @@
-# FrostCore
+# ❄️ FrostCore ❄️
 A Fully Custom ServerCore for Spigot **1.19+**
 
 I mainly started this project to enhance my java skills, so if you see any coding practices i should be doing, please say as I would greatly appreciate it.
