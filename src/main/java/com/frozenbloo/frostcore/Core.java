@@ -1,8 +1,8 @@
 package com.frozenbloo.frostcore;
 
-import com.frozenbloo.frostcore.Command.Commands.Player.Hat;
-import com.frozenbloo.frostcore.Command.Commands.Util.Feed;
-import com.frozenbloo.frostcore.Command.Commands.Util.Ping;
+import com.frozenbloo.frostcore.command.commands.player.Hat;
+import com.frozenbloo.frostcore.command.commands.util.Feed;
+import com.frozenbloo.frostcore.command.commands.util.Ping;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 

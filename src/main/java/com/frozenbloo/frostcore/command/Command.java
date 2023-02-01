@@ -1,6 +1,6 @@
-package com.frozenbloo.frostcore.Command;
+package com.frozenbloo.frostcore.command;
 
-import com.frozenbloo.frostcore.Utils.ChatUtils;
+import com.frozenbloo.frostcore.utils.ChatUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.command.CommandMap;
 import org.bukkit.command.CommandSender;
@@ -51,7 +51,9 @@ public abstract class Command extends BukkitCommand {
     @NotNull
     @Override
     public List<String> tabComplete(@NotNull CommandSender sender , @NotNull String alias , @NotNull String[] args) throws IllegalArgumentException {
-        return onTabComplete(sender, args);
+        return onTabComplete(args);
     }
-    public abstract List<String> onTabComplete(CommandSender sender, String[] args);
+    public abstract List<String> onTabComplete(String[] args);
+
+    public abstract List<String> onTabComplete(CommandSender sender , String[] args);
 }

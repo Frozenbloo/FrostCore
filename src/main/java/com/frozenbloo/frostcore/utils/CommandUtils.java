@@ -1,10 +1,10 @@
-package com.frozenbloo.frostcore.Utils;
+package com.frozenbloo.frostcore.utils;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class CommandUtils {
+public final class CommandUtils {
 
     /**
      * Checks to see if the argument is a valid player, if not returns null

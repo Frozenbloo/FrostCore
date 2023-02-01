@@ -1,8 +1,8 @@
-package com.frozenbloo.frostcore.Command.Commands.Player;
+package com.frozenbloo.frostcore.command.commands.player;
 
-import com.frozenbloo.frostcore.Command.Command;
-import com.frozenbloo.frostcore.Utils.ChatUtils;
-import com.frozenbloo.frostcore.Utils.CommandUtils;
+import com.frozenbloo.frostcore.command.Command;
+import com.frozenbloo.frostcore.utils.ChatUtils;
+import com.frozenbloo.frostcore.utils.CommandUtils;
 import com.google.common.collect.Lists;
 import org.bukkit.Material;
 import org.bukkit.command.CommandSender;
@@ -15,10 +15,11 @@ public class Hat extends Command {
 
     public Hat() {
         super("hat",
-                new String[]{},
+                new String[]{"wear"},
                 "",
                 "frost.player");
     }
+
     @Override
     public void execute(CommandSender sender , String[] args) {
         if (CommandUtils.handleConsole(sender)) {
@@ -45,6 +46,15 @@ public class Hat extends Command {
                 player.getInventory().addItem(head);
                 player.sendMessage(ChatUtils.Coloured("&#3AB0FF🌊 &#F9F2EDHat removed"));
             }
+        }
+    }
+
+    @Override
+    public List<String> onTabComplete(String[] args) {
+        if (args.length == 1) {
+            return Lists.newArrayList("remove", "wear");
+        } else {
+            return null;
         }
     }
 

@@ -1,4 +1,4 @@
-package com.frozenbloo.frostcore.Menu;
+package com.frozenbloo.frostcore.menu;
 
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;

@@ -1,15 +1,11 @@
-package com.frozenbloo.frostcore.Utils;
+package com.frozenbloo.frostcore.utils;
 
-import lombok.Getter;
-import lombok.Setter;
 import net.md_5.bungee.api.ChatColor;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-@Getter
-@Setter
-public class ChatUtils {
+public final class ChatUtils {
 
     /**
      * Regex pattern for hex

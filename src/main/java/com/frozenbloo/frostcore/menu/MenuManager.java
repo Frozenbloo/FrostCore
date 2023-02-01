@@ -1,4 +1,4 @@
-package com.frozenbloo.frostcore.Menu;
+package com.frozenbloo.frostcore.menu;
 
 import java.util.HashMap;
 import java.util.Map;
