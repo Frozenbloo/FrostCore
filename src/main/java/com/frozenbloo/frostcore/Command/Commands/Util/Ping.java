@@ -1,7 +1,7 @@
-package com.frozenbloo.frostcore.Command.Commands.Util;
+package com.frozenbloo.frostcore.command.commands.util;
 
-import com.frozenbloo.frostcore.Command.Command;
-import com.frozenbloo.frostcore.Utils.ChatUtils;
+import com.frozenbloo.frostcore.command.Command;
+import com.frozenbloo.frostcore.utils.ChatUtils;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
@@ -25,7 +25,13 @@ public class Ping extends Command {
     }
 
     @Override
+    public List<String> onTabComplete(String[] args) {
+        return null;
+    }
+
+    @Override
     public List<String> onTabComplete(CommandSender sender , String[] args) {
         return null;
     }
+
 }
