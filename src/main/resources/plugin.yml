@@ -5,6 +5,7 @@ api-version: 1.19
 prefix: 🌊
 authors: [ Frozenbloo ]
 website: https://frozenbloo.com
-softdepend:
+depends:
   - Vault
+softdepend:
   - PlaceholderAPI
