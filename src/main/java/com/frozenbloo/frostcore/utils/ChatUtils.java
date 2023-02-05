@@ -31,7 +31,7 @@ public final class ChatUtils {
     private final static int CENTER_PX = 154;
 
     public static String CenteredMessage(String message){
-        String[] lines = ChatColor.translateAlternateColorCodes('&', message).split("\n", 40);
+        String[] lines = Coloured(message).split("\n", 40);
         StringBuilder returnMessage = new StringBuilder();
 
 
@@ -60,7 +60,7 @@ public final class ChatUtils {
                 sb.append(" ");
                 compensated += spaceLength;
             }
-            returnMessage.append(sb.toString()).append(line).append("\n");
+            returnMessage.append(sb).append(line).append("\n");
         }
 
         return returnMessage.toString();

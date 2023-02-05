@@ -3,6 +3,7 @@ package com.frozenbloo.frostcore;
 import com.frozenbloo.frostcore.command.commands.player.Hat;
 import com.frozenbloo.frostcore.command.commands.util.Feed;
 import com.frozenbloo.frostcore.command.commands.util.Ping;
+import com.frozenbloo.frostcore.utils.ChatUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
