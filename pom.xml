@@ -105,7 +105,7 @@
         <dependency>
             <groupId>com.theokanning.openai-gpt3-java</groupId>
             <artifactId>client</artifactId>
-            <version>0.8.1</version>
+            <version>0.11.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
