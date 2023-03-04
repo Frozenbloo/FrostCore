@@ -1,0 +1,21 @@
+#
+noPermission: "&c&lERROR &7No Permission"
+MOTD: "&aA Minecraft server using &#a2d2df&lFrostCore\n&fJoin now and play with other players!"
+
+welcomeMessages: true
+
+joinMessage: "&c&lWelcome %player%"
+quitMessage: ""
+joinTitleMessage: ""
+joinSubtitleMessage: ""
+
+welcomeMessageDelay: 10
+welcomeMessage:
+  - "Welcome line 1"
+  - "Welcome line 2"
+  - "Welcome line 3"
+
+joinTitle:
+    fadeIn: 0
+    stay: 50
+    fadeOut: 20

@@ -2,10 +2,10 @@ name: FrostCore
 version: '${project.version}'
 main: com.frozenbloo.frostcore.Core
 api-version: 1.19
-prefix: 🌊
+prefix: FrostCore
 authors: [ Frozenbloo ]
 website: https://frozenbloo.com
-depends:
-  - Vault
+depends: []
 softdepend:
   - PlaceholderAPI
+  - Vault
