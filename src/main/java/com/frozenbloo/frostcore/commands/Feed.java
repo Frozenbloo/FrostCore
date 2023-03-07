@@ -14,9 +14,6 @@ import static com.frozenbloo.frostlibrary.string.colour.StringColour.HexColour;
 
 public class Feed extends FrostCommand {
 
-    /**
-     * Default Constructor
-     */
     public Feed() {
         super("feed",
                 new String[]{},
@@ -44,5 +41,4 @@ public class Feed extends FrostCommand {
     public List<String> onTabComplete(String[] args) {
         return null;
     }
-
 }

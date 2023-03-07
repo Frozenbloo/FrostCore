@@ -1,5 +1,6 @@
 package com.frozenbloo.frostcore.events;
 
+import com.frozenbloo.frostcore.Core;
 import com.frozenbloo.frostcore.managers.ConfigManager;
 import com.frozenbloo.frostcore.utils.ChatUtils;
 import org.bukkit.event.EventHandler;
@@ -12,6 +13,6 @@ public class MOTDPingEvent implements Listener {
 
     @EventHandler
     public void onPing(ServerListPingEvent e){
-        e.setMotd(HexColour(ConfigManager.serverMOTD));
+        e.setMotd(HexColour(ConfigManager.serverMOTD.replace("%version%", Core.plugin.getDescription().getVersion())));
     }
 }

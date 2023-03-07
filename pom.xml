@@ -83,7 +83,7 @@
             <groupId>com.frozenbloo</groupId>
             <artifactId>FrostLibrary</artifactId>
             <version>0.1.0</version>
-            <scope>compile</scope>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>me.clip</groupId>
