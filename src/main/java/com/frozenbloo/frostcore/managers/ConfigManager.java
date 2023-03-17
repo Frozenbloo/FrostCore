@@ -19,6 +19,7 @@ public class ConfigManager {
     public static String welcomeLeaveMessage;
     public static String welcomeTitleMessage;
     public static String welcomeSubtitleMessage;
+    public static String gamemodeMessage;
     public static List<String> welcomeMessage;
     //endregion
 
@@ -44,5 +45,7 @@ public class ConfigManager {
         welcomeFadein = Core.plugin.getConfig().getInt("joinTitle.fadeIn");
         welcomeStay = Core.plugin.getConfig().getInt("joinTitle.stay");
         welcomeFadeout = Core.plugin.getConfig().getInt("joinTitle.fadeOut");
+
+        gamemodeMessage = Core.plugin.getConfig().getString("gamemodeChangeMessage");
     }
 }

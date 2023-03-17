@@ -19,3 +19,5 @@ joinTitle:
     fadeIn: 0
     stay: 50
     fadeOut: 20
+
+gamemodeChangeMessage: "Gamemode set to %gamemode%"

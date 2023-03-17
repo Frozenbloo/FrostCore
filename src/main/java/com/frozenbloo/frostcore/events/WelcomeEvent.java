@@ -2,8 +2,6 @@ package com.frozenbloo.frostcore.events;
 
 import com.frozenbloo.frostcore.Core;
 import com.frozenbloo.frostcore.managers.ConfigManager;
-import com.frozenbloo.frostlibrary.FrostLibrary;
-import com.frozenbloo.frostlibrary.player.FrostPlayer;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -12,6 +10,7 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
 
 import static com.frozenbloo.frostlibrary.string.colour.StringColour.HexColour;
+import static com.frozenbloo.frostlibrary.string.formatting.fontinfo.SmallFont.SmallFontConverter.ConvertToSmallFont;
 
 public class WelcomeEvent implements Listener {
 
@@ -29,7 +28,7 @@ public class WelcomeEvent implements Listener {
 
         Bukkit.getScheduler().runTaskLater(Core.plugin, (() -> {
             for (Object msg : ConfigManager.welcomeMessage) {
-                player.sendMessage(HexColour(msg.toString().replace("%player%", player.getName())));
+                player.sendMessage(HexColour(ConvertToSmallFont(msg.toString().replace("%player%", player.getName()))));
             }
         }), ConfigManager.welcomeMessageDelay);
     }

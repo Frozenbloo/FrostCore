@@ -1,6 +1,7 @@
 package com.frozenbloo.frostcore;
 
 import com.frozenbloo.frostcore.commands.Feed;
+import com.frozenbloo.frostcore.commands.Gamemode;
 import com.frozenbloo.frostcore.commands.Ping;
 import com.frozenbloo.frostcore.events.MOTDPingEvent;
 import com.frozenbloo.frostcore.events.WelcomeEvent;
@@ -31,6 +32,7 @@ public final class Core extends JavaPlugin {
         //region Register Commands
         new Ping();
         new Feed();
+        new Gamemode();
         //endregion
 
         //region Register Listeners
