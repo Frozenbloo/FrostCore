@@ -5,6 +5,7 @@ api-version: 1.19
 prefix: FrostCore
 authors: [ Frozenbloo ]
 website: https://frozenbloo.com
+folia-supported: true
 depends:
   - FrostLibrary
 softdepend:
